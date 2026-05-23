@@ -377,7 +377,7 @@ CREATE TABLE `Recruiting_Manager` (
 
 LOCK TABLES `Recruiting_Manager` WRITE;
 /*!40000 ALTER TABLE `Recruiting_Manager` DISABLE KEYS */;
-INSERT INTO `Recruiting_Manager` VALUES (1,'Ved','Patel','ved.patel@vercel.com');
+INSERT INTO `Recruiting_Manager` VALUES (1,'Alia','Lopez','alia.lopez@example.com');
 /*!40000 ALTER TABLE `Recruiting_Manager` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -505,4 +505,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-05-23 21:00:33
+-- Dump completed on 2026-05-23 21:24:08

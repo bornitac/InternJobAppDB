@@ -1,16 +1,16 @@
-# 💼 Internship & Job Application Tracking Database
+## Internship & Job Application Tracking Database
 
 A relational database designed to track and manage internship and job applications in an organized way to improve efficiency in the job search process. Built using MariaDB and designed following Third Normal Form (3NF).
 
 ---
 
-## 📋 Mission Statement
+## Mission Statement
 
 The purpose of this internship and job application database is to help track and manage applications in an organized way to improve efficiency in the job search process — storing details about companies, positions, skills, platforms, and referrals in one centralized system.
 
 ---
 
-## 🔍 What It Does
+## What It Does
 
 - Tracks complete details on job and internship applications including company, position, platform, and status
 - Identifies repeated applications to the same company or position to avoid duplicates
@@ -21,7 +21,7 @@ The purpose of this internship and job application database is to help track and
 
 ---
 
-## 🗂️ Database Structure
+## Database Structure
 
 ### Data Tables
 - **Application** – Core table storing each job/internship application with status, dates, resume, cover letter, and portfolio
@@ -50,7 +50,7 @@ The purpose of this internship and job application database is to help track and
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - **MariaDB** – Relational database management system
 - **SQL** – Table creation, queries, views, foreign keys, and indexing
@@ -59,7 +59,7 @@ The purpose of this internship and job application database is to help track and
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - MariaDB or MySQL installed locally (or via XAMPP)
@@ -81,7 +81,7 @@ The purpose of this internship and job application database is to help track and
 
 ---
 
-## 🔎 Sample Queries
+## Sample Queries
 
 **What skills are required for a specific position?**
 ```sql
@@ -105,7 +105,7 @@ SELECT * FROM Application_Skills_View;
 
 ---
 
-## 📈 Future Directions
+## Future Directions
 
 - Add interview tracking with round numbers and feedback fields
 - Build a dashboard to visualize application status and trends over time
@@ -114,6 +114,6 @@ SELECT * FROM Application_Skills_View;
 
 ---
 
-## 📂 Data Note
+## Data Note
 
 All personal data in this database is sample/anonymized data used for demonstration purposes.
